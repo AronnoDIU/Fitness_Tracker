@@ -1,4 +1,11 @@
-class Exercise {
+/**
+ * @param duration in minutes
+ */
+record Exercise(String name, int duration) {
+}
+
+/*
+class Exercise { // This way is not recommended
     private final String name;
     private final int duration; // in minutes
 
@@ -14,4 +21,4 @@ class Exercise {
     public int getDuration() {
         return duration;
     }
-}
+}*/
